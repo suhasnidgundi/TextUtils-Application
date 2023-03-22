@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- EditText for user input -->
+    <EditText
+        android:id="@+id/input_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your paragraph here"
+        android:padding="16dp"
+        android:textSize="16sp"/>
+
+    <!-- 3x3 grid of Buttons for text utility functions -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    >
+
+        <TableRow
+            android:layout_marginHorizontal="5dp"
+            >
+
+            <Button
+                android:layout_marginHorizontal="5dp"
+                android:id="@+id/capitalize_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Capitalize"/>
+            <Button
+                android:layout_marginHorizontal="5dp"
+                android:id="@+id/lowercase_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lowercase"/>
+
+
+
+
+
+        </TableRow>
+
+            <TableRow
+                android:layout_marginHorizontal="5dp"
+            >
+
+            <Button
+                android:layout_marginHorizontal="5dp"
+                android:id="@+id/capitalize_next_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Capitalize Next"/>
+
+            <Button
+                android:layout_marginHorizontal="5dp"
+                android:id="@+id/remove_symbol_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove Symbol"/>
+
+
+
+        </TableRow>
+
+                <TableRow
+            android:layout_marginHorizontal="5dp"
+            >
+
+            <Button
+                android:layout_marginHorizontal="5dp"
+                android:id="@+id/word_count_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Word Count"/>
+
+            <Button
+                android:layout_marginHorizontal="5dp"
+                android:id="@+id/character_count_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Char Count"/>
+
+
+
+        </TableRow>
+
+
+                <TableRow
+            android:layout_marginHorizontal="5dp"
+            >
+            <Button
+                android:layout_marginHorizontal="5dp"
+                android:id="@+id/remove_line_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove Line"/>
+
+                    <Button
+                        android:layout_marginHorizontal="5dp"
+                        android:id="@+id/remove_space_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Remove Space"/>
+
+
+
+                </TableRow>
+        <TableRow
+            android:layout_marginHorizontal="5dp"
+            >
+
+
+            <Button
+                android:layout_marginHorizontal="5dp"
+                android:id="@+id/reverse_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reverse Text"/>
+            <Button
+                android:layout_marginHorizontal="5dp"
+                android:id="@+id/clear_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear"/>
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
